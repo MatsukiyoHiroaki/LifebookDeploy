@@ -74,17 +74,18 @@
         console.log(imagedata);
         $scope.messages.$add({
           'img': reader.result, /*写真*/
-          'coment': $scope.coment
+          'coment': $scope.teikei.name,
+          'code': $scope.teikei.code
         });
       };
     });
-
-    /*tabs*/
-    $scope.activeTab = 1;
-    $scope.setActiveTab = function(tab) {
-      $scope.activeTab = tab;
-    };
-
+    /*イベント定義*/
+    $scope.events = [
+      {name: '出産' , code: 1},
+      {name: 'お宮参り' , code: 2},
+      {name: '一カ月検診' , code: 3}
+    ];
+    $scope.teikei = $scope.events[0];
   };
 
   /**
