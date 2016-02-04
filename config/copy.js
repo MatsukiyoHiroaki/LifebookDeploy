@@ -12,7 +12,10 @@
           '*.{ico,png,txt}',
           'images/{,*/}*.webp',
           'components/{,*/}*.html',
+<<<<<<< HEAD
           'components/{,*/}*.js',
+=======
+>>>>>>> 78d9f6a6ecf3883b637a51a04759a208011b1468
           'directives/{,*/}*.html',
           '{,*/}*.html',
           'styles/fonts/{,*/}*.*'
