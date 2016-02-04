@@ -1,15 +1,19 @@
 <header class="navbar navbar-light navbar-fixed-top bg-faded bd-navbar">
-  <div class="clearfix hidden-sm-up">
-    <button class="navbar-toggler pull-right hidden-sm-up collapsed" type="button" data-toggle="collapse" data-target="#app-nav"  aria-expanded="false">
-      &#9776;
-    </button>
     <a class="navbar-brand" href="/">Lifebooks</a>
+    <div Align="right">
+    <button type="button" class="btn btn-default navbar-btn btn-lg btn-primar">
+    <a ng-link="menu"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><a>
+    </button>
   </div>
+
 
   <nav class="navbar-toggleable-xs collapse" id="app-nav" aria-expanded="false" style="height: 0px;">
     <ul class="nav navbar-nav">
       <li class="hidden-xs-down"><a class="navbar-brand" href="/">Lifebooks</a></li>
       <li class="nav-item"><a class="nav-link" ng-link="camera">Camera</a></li>
+      <li class="nav-item"><a class="nav-link" ng-link="login">login</a></li>
+      <li class="nav-item"><a class="nav-link" ng-link="menu">menu</a></li>
+      <li class="nav-item"><a class="nav-link" ng-link="initialsetting">initialsetting</a></li>
       <li class="nav-item"><a class="nav-link" ng-link="home">Home</a></li>
       <li class="nav-item"><a class="nav-link" ng-link="album">Album</a></li>
       <li class="nav-item"><a class="nav-link" ng-link="about">About</a></li>
