@@ -4,7 +4,7 @@
   module.exports = {
     options: {
       base: 'dist',
-      repo: 'https://github.com/Naohiro1980/Lifebooks.git'
+      repo: 'https://github.com/MatsukiyoHiroaki/LifebookDeploy.git'
     },
     src: ['**']
   };
